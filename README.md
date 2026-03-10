@@ -1,7 +1,6 @@
 <div align="center">
 ![Terminal](https://raw.githubusercontent.com/asiiyaah/asiiyaah/main/terminal.svg)
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=3&section=header&customColorList=0,2,3"/>
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=asiiyaah&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=00f5ff&text_color=ffffff" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=asiiyaah&theme=tokyonight&hide_border=true&background=0d1117&stroke=00f5ff&ring=00f5ff&fire=ff6b6b&currStreakLabel=00f5ff" />
 <br/>
