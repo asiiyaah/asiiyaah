@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 244" width="800" height="244">
+  <defs>
+    <style>
+      @keyframes fadeup { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes bar-grow { from{width:0} to{width:100%} }
+    </style>
+    <linearGradient id="top-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f5ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    
+    <linearGradient id="grad-python" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="grad-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b949e" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8b949e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="244" rx="12" fill="#0d1117"/>
+  <rect x="0" y="0" width="800" height="2" rx="1" fill="url(#top-line)"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Courier New,monospace" font-size="12" fill="#00f5ff" letter-spacing="3"
+    style="opacity:0;animation:fadeup 0.6s ease-out 0.1s both">⏱  CODING STATS</text>
+  <line x1="30" y1="42" x2="770" y2="42" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Stat boxes -->
+  <g style="opacity:0;animation:fadeup 0.6s ease-out 0.1s both">
+    <rect x="30"  y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <rect x="30"  y="54" width="168" height="2"  rx="1" fill="#00f5ff" opacity="0.6"/>
+    <text x="114" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#00f5ff" style="filter:drop-shadow(0 0 8px #00f5ff66)">0h 13m</text>
+    <text x="114" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">TOTAL TIME CODED</text>
+  </g>
+  <g style="opacity:0;animation:fadeup 0.6s ease-out 0.3s both">
+    <rect x="214" y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <rect x="214" y="54" width="168" height="2"  rx="1" fill="#3fb950" opacity="0.6"/>
+    <text x="298" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#3fb950" style="filter:drop-shadow(0 0 8px #3fb95066)">~0h 13m</text>
+    <text x="298" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">DAILY AVERAGE</text>
+  </g>
+  <g style="opacity:0;animation:fadeup 0.6s ease-out 0.5s both">
+    <rect x="398" y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <rect x="398" y="54" width="168" height="2"  rx="1" fill="#e3b341" opacity="0.6"/>
+    <text x="482" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#e3b341" style="filter:drop-shadow(0 0 8px #e3b34166)">Friday</text>
+    <text x="482" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">BEST DAY</text>
+  </g>
+  <g style="opacity:0;animation:fadeup 0.6s ease-out 0.7s both">
+    <rect x="582" y="54" width="188" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <rect x="582" y="54" width="188" height="2"  rx="1" fill="#a78bfa" opacity="0.6"/>
+    <text x="676" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#a78bfa" style="filter:drop-shadow(0 0 8px #a78bfa66)">last week</text>
+    <text x="676" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">RANGE</text>
+  </g>
+
+  <line x1="30" y1="136" x2="770" y2="136" stroke="#21262d" stroke-width="1"/>
+  <text x="30" y="157" font-family="Courier New,monospace" font-size="10" fill="#00f5ff" letter-spacing="3"
+    style="opacity:0;animation:fadeup 0.6s ease-out 0.2s both">LANGUAGES</text>
+
+  
+  <g style="opacity:0;animation:fadeup 0.6s ease-out 0.3s both">
+    <circle cx="42" cy="178" r="4" fill="#3fb950" style="filter:drop-shadow(0 0 4px #3fb950)"/>
+    <text x="58"  y="182" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Python</text>
+    <text x="148" y="182" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">0h 13m</text>
+    <rect x="240" y="172" width="320" height="10" rx="5" fill="#161b22"/>
+    <rect x="240" y="172" width="320" height="10" rx="5" fill="url(#grad-python)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.3s both"/>
+    <text x="572" y="182" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">98.01%</text>
+  </g>
+  <g style="opacity:0;animation:fadeup 0.6s ease-out 0.44999999999999996s both">
+    <circle cx="42" cy="210" r="4" fill="#8b949e" style="filter:drop-shadow(0 0 4px #8b949e)"/>
+    <text x="58"  y="214" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Text</text>
+    <text x="148" y="214" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">0h 0m</text>
+    <rect x="240" y="204" width="320" height="10" rx="5" fill="#161b22"/>
+    <rect x="240" y="204" width="6" height="10" rx="5" fill="url(#grad-text)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.44999999999999996s both"/>
+    <text x="572" y="214" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">1.99%</text>
+  </g>
+</svg>
