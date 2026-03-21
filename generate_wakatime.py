@@ -8,7 +8,7 @@ WAKATIME_API_KEY = os.environ.get("WAKATIME_API_KEY")
 headers = {"Authorization": f"Basic {__import__('base64').b64encode(WAKATIME_API_KEY.encode()).decode()}"}
 
 summary = requests.get("https://wakatime.com/api/v1/users/current/summaries?range=all_time", headers=headers).json()
-stats   = requests.get("https://wakatime.com/api/v1/users/current/stats/all_time", headers=headers).json()
+stats = requests.get("https://wakatime.com/api/v1/users/current/stats/all_time?is_including_today=true", headers=headers).json()
 
 data = stats.get("data", {})
 
