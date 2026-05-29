@@ -19,21 +19,22 @@ total_mins = int((total_seconds % 3600) // 60)
 total_str  = f"{total_hrs}h {total_mins}m"
 
 # Daily average
-daily_avg  = data.get("daily_average", 0)
+daily_avg  = data.get("daily_average", 0) if data else 0
 avg_hrs    = int(daily_avg // 3600)
 avg_mins   = int((daily_avg % 3600) // 60)
 avg_str    = f"~{avg_hrs}h {avg_mins}m"
 
-# Best day
-best_day_data = data.get("best_day", {})
-best_day_str  = best_day_data.get("date", "N/A")
-if best_day_str != "N/A":
-    from datetime import datetime
-    best_day_str = datetime.strptime(best_day_str, "%Y-%m-%d").strftime("%A")
+# Best day 
+best_day_data = data.get("best_day") if data else None
+
+best_day_str = "N/A"
+if best_day_data is not None:
+    best_day_str = best_day_data.get("date", "N/A")
 
 # Languages (top 5, ordered by seconds)
-languages_raw = data.get("languages", [])[:5]
+languages_raw = data.get("languages", [])[:5] if data else []
 max_seconds   = languages_raw[0]["total_seconds"] if languages_raw else 1
+
 
 # Colors per language
 COLOR_MAP = {
