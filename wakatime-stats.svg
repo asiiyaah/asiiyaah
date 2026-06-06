@@ -44,13 +44,13 @@
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.1s both">
     <rect x="30"  y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
     <rect x="30"  y="54" width="168" height="2"  rx="1" fill="#00f5ff" opacity="0.6"/>
-    <text x="114" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#00f5ff" style="filter:drop-shadow(0 0 8px #00f5ff66)">33h 41m</text>
+    <text x="114" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#00f5ff" style="filter:drop-shadow(0 0 8px #00f5ff66)">35h 50m</text>
     <text x="114" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">TOTAL TIME CODED</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.3s both">
     <rect x="214" y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
     <rect x="214" y="54" width="168" height="2"  rx="1" fill="#3fb950" opacity="0.6"/>
-    <text x="298" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#3fb950" style="filter:drop-shadow(0 0 8px #3fb95066)">~0h 54m</text>
+    <text x="298" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#3fb950" style="filter:drop-shadow(0 0 8px #3fb95066)">~0h 56m</text>
     <text x="298" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">DAILY AVERAGE</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.5s both">
@@ -74,41 +74,41 @@
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.3s both">
     <circle cx="42" cy="178" r="4" fill="#3fb950" style="filter:drop-shadow(0 0 4px #3fb950)"/>
     <text x="58"  y="182" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Python</text>
-    <text x="148" y="182" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">20h 19m</text>
+    <text x="148" y="182" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">22h 27m</text>
     <rect x="240" y="172" width="320" height="10" rx="5" fill="#161b22"/>
     <rect x="240" y="172" width="320" height="10" rx="5" fill="url(#grad-python)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.3s both"/>
-    <text x="572" y="182" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">60.19%</text>
+    <text x="572" y="182" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">62.55%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.44999999999999996s both">
     <circle cx="42" cy="210" r="4" fill="#f97583" style="filter:drop-shadow(0 0 4px #f97583)"/>
     <text x="58"  y="214" font-family="Courier New,monospace" font-size="12" fill="#8b949e">HTML</text>
     <text x="148" y="214" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">3h 47m</text>
     <rect x="240" y="204" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="204" width="59" height="10" rx="5" fill="url(#grad-html)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.44999999999999996s both"/>
-    <text x="572" y="214" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">11.22%</text>
+    <rect x="240" y="204" width="53" height="10" rx="5" fill="url(#grad-html)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.44999999999999996s both"/>
+    <text x="572" y="214" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">10.55%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.6s both">
     <circle cx="42" cy="242" r="4" fill="#79c0ff" style="filter:drop-shadow(0 0 4px #79c0ff)"/>
     <text x="58"  y="246" font-family="Courier New,monospace" font-size="12" fill="#8b949e">C</text>
     <text x="148" y="246" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">2h 32m</text>
     <rect x="240" y="236" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="236" width="40" height="10" rx="5" fill="url(#grad-c)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.6s both"/>
-    <text x="572" y="246" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">7.52%</text>
+    <rect x="240" y="236" width="36" height="10" rx="5" fill="url(#grad-c)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.6s both"/>
+    <text x="572" y="246" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">7.08%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.75s both">
     <circle cx="42" cy="274" r="4" fill="#a78bfa" style="filter:drop-shadow(0 0 4px #a78bfa)"/>
     <text x="58"  y="278" font-family="Courier New,monospace" font-size="12" fill="#8b949e">CSS</text>
     <text x="148" y="278" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">2h 4m</text>
     <rect x="240" y="268" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="268" width="32" height="10" rx="5" fill="url(#grad-css)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.75s both"/>
-    <text x="572" y="278" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">6.15%</text>
+    <rect x="240" y="268" width="29" height="10" rx="5" fill="url(#grad-css)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.75s both"/>
+    <text x="572" y="278" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">5.78%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.8999999999999999s both">
     <circle cx="42" cy="306" r="4" fill="#e3b341" style="filter:drop-shadow(0 0 4px #e3b341)"/>
     <text x="58"  y="310" font-family="Courier New,monospace" font-size="12" fill="#8b949e">JavaScript</text>
     <text x="148" y="310" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">1h 31m</text>
     <rect x="240" y="300" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="300" width="24" height="10" rx="5" fill="url(#grad-javascript)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.8999999999999999s both"/>
-    <text x="572" y="310" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">4.53%</text>
+    <rect x="240" y="300" width="21" height="10" rx="5" fill="url(#grad-javascript)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.8999999999999999s both"/>
+    <text x="572" y="310" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">4.26%</text>
   </g>
 </svg>
