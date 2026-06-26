@@ -1,6 +1,6 @@
 <div align="center">
 
-![Terminal](https://raw.githubusercontent.com/asiiyaah/asiiyaah/main/terminal.svg)
+![Terminal](https://raw.githubusercontent.com/asiiyaah/asiiyaah/main/terminal.html)
 
 <br/>
 
