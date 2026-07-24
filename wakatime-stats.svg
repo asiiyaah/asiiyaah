@@ -18,15 +18,15 @@
       <stop offset="0%" stop-color="#e3b341" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#e3b341"/>
     </linearGradient>
+    <linearGradient id="grad-css" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
     <linearGradient id="grad-html" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f97583" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#f97583"/>
     </linearGradient>
-    <linearGradient id="grad-markdown" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b949e" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#8b949e"/>
-    </linearGradient>
-    <linearGradient id="grad-git config" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="grad-text" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8b949e" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#8b949e"/>
     </linearGradient>
@@ -44,19 +44,19 @@
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.1s both">
     <rect x="30"  y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
     <rect x="30"  y="54" width="168" height="2"  rx="1" fill="#00f5ff" opacity="0.6"/>
-    <text x="114" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#00f5ff" style="filter:drop-shadow(0 0 8px #00f5ff66)">115h 4m</text>
+    <text x="114" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#00f5ff" style="filter:drop-shadow(0 0 8px #00f5ff66)">15h 49m</text>
     <text x="114" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">TOTAL TIME CODED</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.3s both">
     <rect x="214" y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
     <rect x="214" y="54" width="168" height="2"  rx="1" fill="#3fb950" opacity="0.6"/>
-    <text x="298" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#3fb950" style="filter:drop-shadow(0 0 8px #3fb95066)">~1h 34m</text>
+    <text x="298" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#3fb950" style="filter:drop-shadow(0 0 8px #3fb95066)">~0h 37m</text>
     <text x="298" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">DAILY AVERAGE</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.5s both">
     <rect x="398" y="54" width="168" height="64" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
     <rect x="398" y="54" width="168" height="2"  rx="1" fill="#e3b341" opacity="0.6"/>
-    <text x="482" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#e3b341" style="filter:drop-shadow(0 0 8px #e3b34166)">2026-07-12</text>
+    <text x="482" y="90" text-anchor="middle" font-family="Courier New,monospace" font-size="22" font-weight="bold" fill="#e3b341" style="filter:drop-shadow(0 0 8px #e3b34166)">N/A</text>
     <text x="482" y="107" text-anchor="middle" font-family="Courier New,monospace" font-size="9" fill="#8b949e" letter-spacing="2">BEST DAY</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.7s both">
@@ -74,41 +74,41 @@
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.3s both">
     <circle cx="42" cy="178" r="4" fill="#3fb950" style="filter:drop-shadow(0 0 4px #3fb950)"/>
     <text x="58"  y="182" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Python</text>
-    <text x="148" y="182" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">79h 10m</text>
+    <text x="148" y="182" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">9h 56m</text>
     <rect x="240" y="172" width="320" height="10" rx="5" fill="#161b22"/>
     <rect x="240" y="172" width="320" height="10" rx="5" fill="url(#grad-python)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.3s both"/>
-    <text x="572" y="182" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">67.43%</text>
+    <text x="572" y="182" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">62.54%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.44999999999999996s both">
     <circle cx="42" cy="210" r="4" fill="#e3b341" style="filter:drop-shadow(0 0 4px #e3b341)"/>
     <text x="58"  y="214" font-family="Courier New,monospace" font-size="12" fill="#8b949e">JavaScript</text>
-    <text x="148" y="214" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">6h 40m</text>
+    <text x="148" y="214" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">1h 31m</text>
     <rect x="240" y="204" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="204" width="26" height="10" rx="5" fill="url(#grad-javascript)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.44999999999999996s both"/>
-    <text x="572" y="214" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">5.68%</text>
+    <rect x="240" y="204" width="49" height="10" rx="5" fill="url(#grad-javascript)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.44999999999999996s both"/>
+    <text x="572" y="214" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">9.64%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.6s both">
-    <circle cx="42" cy="242" r="4" fill="#f97583" style="filter:drop-shadow(0 0 4px #f97583)"/>
-    <text x="58"  y="246" font-family="Courier New,monospace" font-size="12" fill="#8b949e">HTML</text>
-    <text x="148" y="246" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">6h 39m</text>
+    <circle cx="42" cy="242" r="4" fill="#a78bfa" style="filter:drop-shadow(0 0 4px #a78bfa)"/>
+    <text x="58"  y="246" font-family="Courier New,monospace" font-size="12" fill="#8b949e">CSS</text>
+    <text x="148" y="246" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">1h 12m</text>
     <rect x="240" y="236" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="236" width="26" height="10" rx="5" fill="url(#grad-html)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.6s both"/>
-    <text x="572" y="246" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">5.67%</text>
+    <rect x="240" y="236" width="38" height="10" rx="5" fill="url(#grad-css)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.6s both"/>
+    <text x="572" y="246" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">7.59%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.75s both">
-    <circle cx="42" cy="274" r="4" fill="#8b949e" style="filter:drop-shadow(0 0 4px #8b949e)"/>
-    <text x="58"  y="278" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Markdown</text>
-    <text x="148" y="278" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">5h 58m</text>
+    <circle cx="42" cy="274" r="4" fill="#f97583" style="filter:drop-shadow(0 0 4px #f97583)"/>
+    <text x="58"  y="278" font-family="Courier New,monospace" font-size="12" fill="#8b949e">HTML</text>
+    <text x="148" y="278" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">1h 5m</text>
     <rect x="240" y="268" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="268" width="24" height="10" rx="5" fill="url(#grad-markdown)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.75s both"/>
-    <text x="572" y="278" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">5.09%</text>
+    <rect x="240" y="268" width="35" height="10" rx="5" fill="url(#grad-html)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.75s both"/>
+    <text x="572" y="278" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">6.89%</text>
   </g>
   <g style="opacity:0;animation:fadeup 0.6s ease-out 0.8999999999999999s both">
     <circle cx="42" cy="306" r="4" fill="#8b949e" style="filter:drop-shadow(0 0 4px #8b949e)"/>
-    <text x="58"  y="310" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Git Config</text>
-    <text x="148" y="310" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">2h 58m</text>
+    <text x="58"  y="310" font-family="Courier New,monospace" font-size="12" fill="#8b949e">Text</text>
+    <text x="148" y="310" font-family="Courier New,monospace" font-size="12" fill="#e6edf3" font-weight="bold">0h 50m</text>
     <rect x="240" y="300" width="320" height="10" rx="5" fill="#161b22"/>
-    <rect x="240" y="300" width="12" height="10" rx="5" fill="url(#grad-git config)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.8999999999999999s both"/>
-    <text x="572" y="310" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">2.53%</text>
+    <rect x="240" y="300" width="27" height="10" rx="5" fill="url(#grad-text)" style="animation:bar-grow 1.2s cubic-bezier(.4,0,.2,1) 0.8999999999999999s both"/>
+    <text x="572" y="310" font-family="Courier New,monospace" font-size="11" fill="#00f5ff">5.30%</text>
   </g>
 </svg>
