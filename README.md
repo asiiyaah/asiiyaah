@@ -24,6 +24,9 @@
 
 <br/>
 
+<p align="center">
+  <img src="cat-knocks-mug.svg" width="700" alt="white cat knocking off mug" />
+</p>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12&height=100&section=footer&animation=twinkling"/>
 
 </div>
