@@ -18,15 +18,18 @@
 
 <br/>
 
+
+
+<p align="center">
+  <img src="cat-knocks-mug.svg" width="700" alt="white cat knocking off mug" />
+</p>
+
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00f5ff)](https://github.com/asiiyaah)
 [![X](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=00f5ff)](https://twitter.com/asii_yaah)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00f5ff)](https://linkedin.com/in/asiya-m-sali)
 
 <br/>
 
-<p align="center">
-  <img src="cat-knocks-mug.svg" width="700" alt="white cat knocking off mug" />
-</p>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12&height=100&section=footer&animation=twinkling"/>
 
 </div>
